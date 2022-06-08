@@ -1,1 +1,1 @@
-Here is my Internshala React Course learnings
+Here are my Internshala React Course learnings.
