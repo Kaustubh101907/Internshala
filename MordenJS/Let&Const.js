@@ -8,3 +8,6 @@ function printMyName() {
 }
 
 printMyName();
+
+// let type of variable can be re-assigned
+// const type of variables can not be re-assigned
