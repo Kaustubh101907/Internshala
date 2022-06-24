@@ -2,8 +2,15 @@ function myName() {
     console.log("Kaustubh");
 }
 
-const myName2 = () => {
-    console.log("Kaustubh2");
-};
+// const myName2 = () => {
+//     console.log("Kaustubh2");
+// };
 
-myName();
+// returning a object
+const myName2 = () => ({
+    name: "Kaustubh2",
+});
+
+const m = myName2();
+
+console.log(m);
