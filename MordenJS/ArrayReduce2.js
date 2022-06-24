@@ -5,7 +5,7 @@ const result = hello.reduce(function (acc, currVal, currInd) {
     const  mappedCurrentElem = {};
     mappedCurrentElem[currInd] = currVal;
 
-    console.log(acc);
+    console.log(acc); 
 
     return Object.assign(acc, mappedCurrentElem);
 }, {});
