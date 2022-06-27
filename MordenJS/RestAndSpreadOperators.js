@@ -36,8 +36,9 @@ console.log(rest)
 const other = {
     name2: "Alex",
     car: "BMW",
+    ...person,
 };
 
-const merge = {...person, ...other};
+// const merge = {...person, ...other};
 
-console.log(merge);
+console.log(other);
