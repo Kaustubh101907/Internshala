@@ -1,7 +1,7 @@
-const doSome = new Promise((resolve, reject) => {
+const doSomething = new Promise((resolve, reject) => {
     resolve("hello");
 });
 
-doSome;
+doSomething;
 
-console.log(doSome);
+console.log(doSomething);
